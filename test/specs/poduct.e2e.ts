@@ -8,7 +8,7 @@ describe('My Login application and product cart', () => {
 
     it('should flipkart login and logout with valid credentials', async () => {
         await LoginPage.open();
-        await LoginPage.login('9354789923', 'Simple@2323');
+        await LoginPage.login('id', 'password');
         await ProfilePage.validateAccountIsLoggedIn();
     });
 
